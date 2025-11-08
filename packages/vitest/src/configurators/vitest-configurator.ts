@@ -1,6 +1,6 @@
 import vitest from '@vitest/eslint-plugin'
 
-import type { Configurator } from '@myzkey/eslint-config-definer'
+import type { Configurator } from '@myzkeyjs/eslint-config-definer'
 
 export const vitestConfigurator: Configurator = () => {
   return [

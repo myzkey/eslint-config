@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-nodejs",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-nodejs",
+  "version": "0.0.2",
   "description": "Node.js and NestJS ESLint configuration",
   "keywords": [
     "eslint",
@@ -45,7 +45,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@myzkey/eslint-config-definer": "workspace:*"
+    "@myzkeyjs/eslint-config-definer": "workspace:*"
   },
   "devDependencies": {
     "@rslib/core": "^0.17.1",
@@ -53,10 +53,7 @@
     "eslint": "^9.17.0"
   },
   "peerDependencies": {
-    "@myzkey/eslint-config-typescript": "workspace:*",
+    "@myzkeyjs/eslint-config-typescript": "workspace:*",
     "eslint": "^9.17.0"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

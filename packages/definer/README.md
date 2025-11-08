@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-definer
+# @myzkeyjs/eslint-config-definer
 
 ESLint configuration definer utilities.
 
 ## Installation
 
 ```bash
-pnpm add -D @myzkey/eslint-config-definer
+pnpm add -D @myzkeyjs/eslint-config-definer
 ```
 
 ## Usage
 
 ```typescript
-import { define } from '@myzkey/eslint-config-definer'
-import type { Configurator } from '@myzkey/eslint-config-definer'
+import { define } from '@myzkeyjs/eslint-config-definer'
+import type { Configurator } from '@myzkeyjs/eslint-config-definer'
 
 const myConfigurator: Configurator = () => {
   return [

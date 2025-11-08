@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-nextjs
+# @myzkeyjs/eslint-config-nextjs
 
 Next.js ESLint configuration optimized for App Router and Pages Router.
 
 ## Installation
 
 ```bash
-pnpm add -D eslint next @myzkey/eslint-config-nextjs
+pnpm add -D eslint next @myzkeyjs/eslint-config-nextjs
 ```
 
 ## Usage
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-nextjs'],
+  extends: ['@myzkeyjs/eslint-config-nextjs'],
 }
 ```
 

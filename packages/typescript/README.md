@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-typescript
+# @myzkeyjs/eslint-config-typescript
 
 TypeScript ESLint configuration with type-checking rules.
 
 ## Installation
 
 ```bash
-pnpm add -D eslint typescript @myzkey/eslint-config-typescript
+pnpm add -D eslint typescript @myzkeyjs/eslint-config-typescript
 ```
 
 ## Usage
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-typescript'],
+  extends: ['@myzkeyjs/eslint-config-typescript'],
 }
 ```
 

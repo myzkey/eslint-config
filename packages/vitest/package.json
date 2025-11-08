@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-vitest",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-vitest",
+  "version": "0.0.2",
   "description": "Vitest ESLint configuration",
   "keywords": [
     "eslint",
@@ -44,7 +44,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@myzkey/eslint-config-definer": "workspace:*",
+    "@myzkeyjs/eslint-config-definer": "workspace:*",
     "@vitest/eslint-plugin": "^1.1.17"
   },
   "devDependencies": {
@@ -54,16 +54,13 @@
     "vitest": "^3.0.0"
   },
   "peerDependencies": {
-    "@myzkey/eslint-config-typescript": "workspace:*",
+    "@myzkeyjs/eslint-config-typescript": "workspace:*",
     "eslint": "^9.17.0",
     "vitest": "^2.0.0 || ^3.0.0"
   },
   "peerDependenciesMeta": {
-    "@myzkey/eslint-config-typescript": {
+    "@myzkeyjs/eslint-config-typescript": {
       "optional": true
     }
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

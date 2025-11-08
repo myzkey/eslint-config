@@ -32,7 +32,7 @@ importers:
 
   packages/common:
     dependencies:
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
       eslint-plugin-import:
@@ -63,10 +63,10 @@ importers:
 
   packages/nextjs:
     dependencies:
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@myzkey/eslint-config-react':
+      '@myzkeyjs/eslint-config-react':
         specifier: workspace:*
         version: link:../react
       eslint-config-next:
@@ -88,10 +88,10 @@ importers:
 
   packages/nodejs:
     dependencies:
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@myzkey/eslint-config-typescript':
+      '@myzkeyjs/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
     devDependencies:
@@ -107,13 +107,13 @@ importers:
 
   packages/react:
     dependencies:
-      '@myzkey/eslint-config-common':
+      '@myzkeyjs/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@myzkey/eslint-config-typescript':
+      '@myzkeyjs/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       eslint-plugin-jsx-a11y:
@@ -141,10 +141,10 @@ importers:
 
   packages/typescript:
     dependencies:
-      '@myzkey/eslint-config-common':
+      '@myzkeyjs/eslint-config-common':
         specifier: workspace:*
         version: link:../common
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
       '@typescript-eslint/eslint-plugin':
@@ -169,10 +169,10 @@ importers:
 
   packages/vitest:
     dependencies:
-      '@myzkey/eslint-config-definer':
+      '@myzkeyjs/eslint-config-definer':
         specifier: workspace:*
         version: link:../definer
-      '@myzkey/eslint-config-typescript':
+      '@myzkeyjs/eslint-config-typescript':
         specifier: workspace:*
         version: link:../typescript
       '@vitest/eslint-plugin':

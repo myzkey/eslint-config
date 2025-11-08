@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-react
+# @myzkeyjs/eslint-config-react
 
 React ESLint configuration with hooks and accessibility rules.
 
 ## Installation
 
 ```bash
-pnpm add -D eslint react @myzkey/eslint-config-react
+pnpm add -D eslint react @myzkeyjs/eslint-config-react
 ```
 
 ## Usage
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-react'],
+  extends: ['@myzkeyjs/eslint-config-react'],
 }
 ```
 

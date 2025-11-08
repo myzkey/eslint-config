@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-nodejs
+# @myzkeyjs/eslint-config-nodejs
 
 Node.js and NestJS ESLint configuration.
 
 ## Installation
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-nodejs
+pnpm add -D eslint @myzkeyjs/eslint-config-nodejs
 ```
 
 ## Usage
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-nodejs'],
+  extends: ['@myzkeyjs/eslint-config-nodejs'],
 }
 ```
 

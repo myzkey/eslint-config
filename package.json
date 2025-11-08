@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config",
-  "version": "1.0.0",
+  "name": "@myzkeyjs/eslint-config",
+  "version": "0.0.1",
   "private": true,
   "description": "Shareable ESLint configurations for React, Next.js, NestJS, and Node.js projects",
   "scripts": {

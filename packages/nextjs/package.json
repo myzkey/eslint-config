@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-nextjs",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-nextjs",
+  "version": "0.0.2",
   "description": "Next.js ESLint configuration",
   "keywords": [
     "eslint",
@@ -45,7 +45,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@myzkey/eslint-config-definer": "workspace:*",
+    "@myzkeyjs/eslint-config-definer": "workspace:*",
     "eslint-config-next": "^15.1.6"
   },
   "devDependencies": {
@@ -55,11 +55,8 @@
     "next": "^15.1.6"
   },
   "peerDependencies": {
-    "@myzkey/eslint-config-react": "workspace:*",
+    "@myzkeyjs/eslint-config-react": "workspace:*",
     "eslint": "^9.17.0",
     "next": "^13.0.0 || ^14.0.0 || ^15.0.0"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

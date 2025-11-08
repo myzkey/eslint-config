@@ -1,8 +1,12 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import jsxA11y from 'eslint-plugin-jsx-a11y'
 import react from 'eslint-plugin-react'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import reactHooks from 'eslint-plugin-react-hooks'
 
-import type { Configurator } from '@myzkey/eslint-config-definer'
+import type { Configurator } from '@myzkeyjs/eslint-config-definer'
 
 export const reactConfigurator: Configurator = () => {
   return [
