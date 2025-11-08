@@ -1,4 +1,4 @@
-# @myzkey/eslint-config
+# @myzkeyjs/eslint-config
 
 Shareable ESLint configurations for React, Next.js, NestJS, and Node.js projects.
 
@@ -8,11 +8,11 @@ This monorepo contains the following ESLint configuration packages:
 
 | Package | Description |
 |---------|-------------|
-| [@myzkey/eslint-config-common](./packages/common) | Common base configuration with best practices |
-| [@myzkey/eslint-config-typescript](./packages/typescript) | TypeScript support with type-checking rules |
-| [@myzkey/eslint-config-react](./packages/react) | React configuration with hooks and a11y |
-| [@myzkey/eslint-config-nextjs](./packages/nextjs) | Next.js optimized configuration |
-| [@myzkey/eslint-config-nodejs](./packages/nodejs) | Node.js and NestJS configuration |
+| [@myzkeyjs/eslint-config-common](./packages/common) | Common base configuration with best practices |
+| [@myzkeyjs/eslint-config-typescript](./packages/typescript) | TypeScript support with type-checking rules |
+| [@myzkeyjs/eslint-config-react](./packages/react) | React configuration with hooks and a11y |
+| [@myzkeyjs/eslint-config-nextjs](./packages/nextjs) | Next.js optimized configuration |
+| [@myzkeyjs/eslint-config-nodejs](./packages/nodejs) | Node.js and NestJS configuration |
 
 ## Installation
 
@@ -21,25 +21,25 @@ Choose the package that matches your project type:
 ### For React projects
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-react
+pnpm add -D eslint @myzkeyjs/eslint-config-react
 ```
 
 ### For Next.js projects
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-nextjs
+pnpm add -D eslint @myzkeyjs/eslint-config-nextjs
 ```
 
 ### For Node.js/NestJS projects
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-nodejs
+pnpm add -D eslint @myzkeyjs/eslint-config-nodejs
 ```
 
 ### For TypeScript-only projects
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-typescript
+pnpm add -D eslint @myzkeyjs/eslint-config-typescript
 ```
 
 ## Usage
@@ -50,7 +50,7 @@ Create an `.eslintrc.js` file in your project root:
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-react'],
+  extends: ['@myzkeyjs/eslint-config-react'],
 }
 ```
 
@@ -58,7 +58,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-nextjs'],
+  extends: ['@myzkeyjs/eslint-config-nextjs'],
 }
 ```
 
@@ -66,7 +66,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-nodejs'],
+  extends: ['@myzkeyjs/eslint-config-nodejs'],
 }
 ```
 
@@ -74,7 +74,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-typescript'],
+  extends: ['@myzkeyjs/eslint-config-typescript'],
 }
 ```
 

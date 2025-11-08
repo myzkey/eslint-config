@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-typescript",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-typescript",
+  "version": "0.0.2",
   "description": "TypeScript ESLint configuration",
   "keywords": [
     "eslint",
@@ -42,7 +42,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@myzkey/eslint-config-definer": "workspace:*",
+    "@myzkeyjs/eslint-config-definer": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^8.18.2",
     "@typescript-eslint/parser": "^8.18.2"
   },
@@ -53,11 +53,8 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "@myzkey/eslint-config-common": "workspace:*",
+    "@myzkeyjs/eslint-config-common": "workspace:*",
     "eslint": "^9.17.0",
     "typescript": "^4.0.0 || ^5.0.0"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

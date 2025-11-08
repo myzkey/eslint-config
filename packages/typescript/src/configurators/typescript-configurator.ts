@@ -1,7 +1,7 @@
 import tseslint from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 
-import type { Configurator } from '@myzkey/eslint-config-definer'
+import type { Configurator } from '@myzkeyjs/eslint-config-definer'
 
 type TypeScriptOptions = {
   tsconfigPath?: string
@@ -13,7 +13,8 @@ export const typescriptConfigurator: Configurator<TypeScriptOptions> = (options)
       name: 'myzkey/typescript/typescript',
       files: ['**/*.{ts,tsx,mts,cts}'],
       languageOptions: {
-        parser: tsParser,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        parser: tsParser as any,
         parserOptions: {
           ecmaVersion: 'latest',
           sourceType: 'module',
@@ -21,7 +22,8 @@ export const typescriptConfigurator: Configurator<TypeScriptOptions> = (options)
         },
       },
       plugins: {
-        '@typescript-eslint': tseslint,
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        '@typescript-eslint': tseslint as any,
       },
       rules: {
         // TypeScript specific rules

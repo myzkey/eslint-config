@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-common",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-common",
+  "version": "0.0.2",
   "description": "Common ESLint configuration base",
   "keywords": [
     "eslint",
@@ -42,7 +42,7 @@
     "lint:type": "tsc --noEmit"
   },
   "dependencies": {
-    "@myzkey/eslint-config-definer": "workspace:*",
+    "@myzkeyjs/eslint-config-definer": "workspace:*",
     "eslint-plugin-import": "^2.29.1"
   },
   "devDependencies": {
@@ -52,8 +52,5 @@
   },
   "peerDependencies": {
     "eslint": "^9.17.0"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

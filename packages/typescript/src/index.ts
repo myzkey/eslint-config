@@ -1,4 +1,4 @@
-import { define } from '@myzkey/eslint-config-definer'
+import { define } from '@myzkeyjs/eslint-config-definer'
 
 import { typescriptConfigurator } from './configurators/typescript-configurator'
 

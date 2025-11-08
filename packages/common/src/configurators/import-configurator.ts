@@ -1,4 +1,6 @@
-import type { Configurator } from '@myzkey/eslint-config-definer'
+import importPlugin from 'eslint-plugin-import'
+
+import type { Configurator } from '@myzkeyjs/eslint-config-definer'
 
 export const importConfigurator: Configurator = () => {
   return [
@@ -6,7 +8,7 @@ export const importConfigurator: Configurator = () => {
       name: 'myzkey/common/import',
       files: ['**/*.{js,mjs,cjs,jsx,ts,tsx}'],
       plugins: {
-        import: (await import('eslint-plugin-import')).default,
+        import: importPlugin,
       },
       rules: {
         'import/order': [

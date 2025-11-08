@@ -1,6 +1,6 @@
 {
-  "name": "@myzkey/eslint-config-definer",
-  "version": "0.0.0",
+  "name": "@myzkeyjs/eslint-config-definer",
+  "version": "0.0.2",
   "description": "ESLint config definer utilities",
   "keywords": [
     "eslint",
@@ -49,8 +49,5 @@
   },
   "peerDependencies": {
     "eslint": "^9.17.0"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }

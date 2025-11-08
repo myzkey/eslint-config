@@ -1,18 +1,18 @@
-# @myzkey/eslint-config-common
+# @myzkeyjs/eslint-config-common
 
 Common ESLint configuration base for all projects.
 
 ## Installation
 
 ```bash
-pnpm add -D eslint @myzkey/eslint-config-common
+pnpm add -D eslint @myzkeyjs/eslint-config-common
 ```
 
 ## Usage
 
 ```js
 module.exports = {
-  extends: ['@myzkey/eslint-config-common'],
+  extends: ['@myzkeyjs/eslint-config-common'],
 }
 ```
 
