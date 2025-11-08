@@ -1,0 +1,71 @@
+{
+  "name": "@myzkey/eslint-config-react",
+  "version": "0.0.0",
+  "description": "React ESLint configuration",
+  "keywords": [
+    "eslint",
+    "config",
+    "react",
+    "typescript",
+    "a11y"
+  ],
+  "homepage": "https://github.com/myzkey/eslint-config/blob/main/packages/react/README.md",
+  "bugs": {
+    "url": "https://github.com/myzkey/eslint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myzkey/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "myzkey",
+  "type": "module",
+  "exports": {
+    "require": {
+      "types": "./dist/cjs/index.d.ts",
+      "default": "./dist/cjs/index.cjs"
+    },
+    "import": {
+      "types": "./dist/esm/index.d.ts",
+      "default": "./dist/esm/index.js"
+    }
+  },
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "lint:code": "eslint .",
+    "lint:type": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@myzkey/eslint-config-definer": "workspace:*",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.17.1",
+    "@types/eslint": "^8.56.2",
+    "eslint": "^9.17.0",
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "@myzkey/eslint-config-common": "workspace:*",
+    "@myzkey/eslint-config-typescript": "workspace:*",
+    "eslint": "^9.17.0"
+  },
+  "peerDependenciesMeta": {
+    "@myzkey/eslint-config-typescript": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "provenance": true
+  }
+}

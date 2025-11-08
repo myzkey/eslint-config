@@ -1,0 +1,41 @@
+{
+  "name": "@myzkey/eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shareable ESLint configurations for React, Next.js, NestJS, and Node.js projects",
+  "scripts": {
+    "build": "pnpm -r build",
+    "clean": "pnpm -r exec rm -rf dist",
+    "lint:code": "pnpm -r lint:code",
+    "lint:type": "pnpm -r lint:type",
+    "version": "changeset",
+    "version:apply": "changeset version",
+    "version:publish": "changeset publish"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "react",
+    "nextjs",
+    "nestjs",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "myzkey",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.7",
+    "@rslib/core": "^0.17.1",
+    "@tsconfig/strictest": "^2.0.2",
+    "eslint": "^9.17.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@10.20.0"
+}
